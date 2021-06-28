@@ -1,0 +1,33 @@
+{
+  "name": "sms-game",
+  "version": "1.0.0",
+  "description": "A simple SMS game using Twilio",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Techman/sms-game.git"
+  },
+  "author": "Michael Hazell",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/Techman/sms-game/issues"
+  },
+  "homepage": "https://github.com/Techman/sms-game#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "random": "^2.1.1",
+    "twilio": "^3.36.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/express": "^4.17.1",
+    "@types/node": "^12.11.7",
+    "@types/random": "^2.1.0",
+    "@types/twilio": "0.0.10"
+  }
+}
